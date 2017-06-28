@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400" rel="stylesheet">
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body , html {
     font-family: 'Roboto', sans-serif;   
@@ -241,15 +241,23 @@ body , html {
     line-height : 1.5; 
 }
 
+.headerthin{
+    font-family:'Raleway:100',sans-serif;
+    
+    
+}
 .footer {
     width : 100%;  
     padding : 30px;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+        
 }
 
 .footer p {
     text-align : center; 
     font-weight : 800; 
-    color : #29303a;
+    color : #fff;
 }
 
 .twitter-share-button{
