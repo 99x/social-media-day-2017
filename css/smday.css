@@ -7,7 +7,21 @@ body , html {
 	-moz-osx-font-smoothing: grayscale;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
+.h1{
+    text-align: center;
+    
+}
+.comment-boxes {
+ width: 500px;
+ height: 100px;
+ -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+      -o-transform: skew(20deg);
+ background: #00c7ce;
+    padding:5%;
+margin: 2%;
 
+}
 
 .scroll-down {
   opacity: 1;
@@ -17,10 +31,15 @@ body , html {
 
 .footer {
     width : 100%;  
-    padding : 30px;
-    background-image: url(../img/99xlogo.png);
-    background-repeat: no-repeat;
-        
+    padding : 60px;
+    margin-top:12%;
+    position: relative;
+    bottom: 0;
+  background: #00c7ce; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #00c7ce , #28ceac); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,  #00c7ce, #28ceac); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,  #00c7ce, #28ceac); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,  #00c7ce , #28ceac); /* Standard syntax */        
 }
 
 .footer p {
@@ -30,7 +49,7 @@ body , html {
 }
 
 .scroll-down {
-  position: absolute;
+  position: relative;
   bottom: 30px;
   left: 50%;
   margin-left: -16px;
@@ -48,7 +67,7 @@ body , html {
 }
 
 .scroll-down:before {
-    position: absolute;
+    position: relative;
     top: calc(50% - 8px);
     left: calc(50% - 6px);
     transform: rotate(-45deg);
@@ -81,9 +100,10 @@ body , html {
     transform: translateY(-5px);
   }
  
-.social-buttons {
+.social-buttons{
  
-  cursor:pointe;
+  cursor:pointer;
+
    
 }
 
@@ -91,17 +111,6 @@ body , html {
  
   cursor:pointer;
   
-}
-
-.comment-boxes {
- width: 500px;
- height: 100px;
- -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-      -o-transform: skew(20deg);
- background: #00c7ce;
-
-
 }
 
 .loader-bg{
@@ -203,6 +212,7 @@ body , html {
 .steps-section{
     margin-top : 100px; 
     margin-bottom : 100px;
+    padding: 10%;
 }
 
 .sub-title{
@@ -331,21 +341,7 @@ body , html {
     
     
 }
-    
-.footer {
-    width : 100%;  
-    padding : 30px;
-    background-image: url(../img/99xlogo.png);
-    background-repeat: no-repeat;
-        
-}
-
-.footer p {
-    text-align : center; 
-    font-weight : 300; 
-    color : #fff;
-}
-
+ 
 .twitter-share-button{
     margin-top: 15px;
 }
