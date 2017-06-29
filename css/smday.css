@@ -11,6 +11,12 @@ body , html {
     text-align: center;
     font-family: 'Raleway',sans-serif;
 }
+.textarea  
+{  
+   font-family:"Raleway", sans-serif;  
+   font-size: 25px;   
+    color: #00c7ce;
+ }
 .comment-boxes {
      width: 500px;
      height: 100px;
