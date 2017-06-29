@@ -7,19 +7,23 @@ body , html {
 	-moz-osx-font-smoothing: grayscale;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
-.h1{
+.heading-post{
     text-align: center;
-    
+    font-family: 'Raleway',sans-serif;
 }
 .comment-boxes {
- width: 500px;
- height: 100px;
- -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-      -o-transform: skew(20deg);
- background: #00c7ce;
+     width: 500px;
+     height: 100px;
+     -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+          -o-transform: skew(20deg);
+    background: #00c7ce;
     padding:5%;
-margin: 2%;
+    margin: 2%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 150%;
+    font-family: 
 
 }
 
