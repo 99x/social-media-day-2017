@@ -10,6 +10,7 @@ body , html {
 .heading-post{
     text-align: center;
     font-family: 'Raleway',sans-serif;
+    margin-bottom:40px;
 }
 .textarea  
 {  
@@ -17,21 +18,38 @@ body , html {
    font-size: 25px;   
     color: #00c7ce;
  }
-.comment-boxes {
-     width: 500px;
+.comment-boxes-blue {
+     width: 600px;
      height: 100px;
      -webkit-transform: skew(20deg);
         -moz-transform: skew(20deg);
           -o-transform: skew(20deg);
     background: #00c7ce;
     padding:5%;
-    margin: 2%;
     text-align: center;
     color: aliceblue;
     font-size: 150%;
-    font-family: 
+    margin-top: 12px; 
 
 }
+
+.comment-boxes-green {
+     width: 600px;
+     height: 100px;
+     -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+          -o-transform: skew(20deg);
+    background: #28ceac;
+    padding:5%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 150%;
+    margin-top: 119px;
+    margin-left: -130px;
+
+}
+
+
 
 .scroll-down {
   opacity: 1;
