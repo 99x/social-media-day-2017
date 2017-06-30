@@ -18,7 +18,7 @@ h1{
 	}
 .Header-image{
     
-    width: 400px;
+    width: 272px;
         margin-top: -25%;
     padding: 5%;
     
@@ -42,3 +42,17 @@ textarea {
 		text-decoration: none;
 		width: 100%;
 	}
+
+@media screen and (min-width:992px){
+ .Header-image{
+    
+    width: 400px;
+        margin-top: -25%;
+    padding: 5%;
+    
+    
+    
+}   
+    
+}
+    
