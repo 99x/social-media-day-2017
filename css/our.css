@@ -1,0 +1,44 @@
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #00c7ce;
+		font-weight: 700;
+        font-family: 'Raleway',sans-serif;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+h1{
+		color: #00c7ce;
+		font-weight: 700;
+    font-size: 500%;
+    font-family: 'Raleway',sans-serif;
+		line-height: 1em;
+    margin-top: 15%;
+    margin-bottom: 0%;
+ 
+	}
+.Header-image{
+    
+    width: 400px;
+        margin-top: -25%;
+    padding: 5%;
+    
+    
+    
+}
+textarea {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		background:transparent;
+		border-radius: 4px;
+		border: none;
+		color: inherit;
+		display: block;
+		outline: 0;
+    font-size: 20px;
+		padding: 0 1em;
+		text-decoration: none;
+		width: 100%;
+	}
